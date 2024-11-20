@@ -1,6 +1,18 @@
-# Sales-Analysis
+# E-Commerce Sales Analysis
 
-## Overview
+# Introduction
+
+The CSV file contains data related to e-commerce sales, comprising 9,994 rows and 22 columns. Each row represents an order with details such as:
+
+- **Order Information**: `Row ID`, `Order ID`, `Year`, `Order Date`, `Ship Date`, `Ship Mode`.
+- **Customer Details**: `Customer ID`, `Customer Name`, `Segment`.
+- **Location Details**: `Country`, `City`, `State`, `Postal Code`, `Region`.
+- **Product Information**: `Product ID`, `Category`, `Sub-Category`, `Product Name`.
+- **Sales Metrics**: `Sales`, `Quantity`, `Discount`, `Profit`.
+
+This dataset provides an overview of orders, shipping details, customer segments, product categories, and financial metrics, which can be useful for analyzing sales performance, customer trends, and profitability.
+
+## Project Overview
 The e-commerce sales data document consists of 22 attributes, capturing various details about each transaction, from order specifics to customer demographics and financial performance. Here’s a summary of each section:
 
 1. Order and Shipping Details:
@@ -24,4 +36,11 @@ The e-commerce sales data document consists of 22 attributes, capturing various 
 
 The dataset is well-suited for analysis on topics such as sales trends, customer behavior, regional performance, and profitability analysis across products and customer segments.
 
-**Note: Will perform Exploratory Data Analysis (EDA) on the sales column**
+## Data Source
+The primary dataset used in this analysis is gotten from kaggle. You can also get the dataset direct from kaggle [here](https://www.kaggle.com/datasets/abhishekchauhan001/ecommerce-sales)" or make use of the one uploaded in here.
+
+### Tools 
+Python: Used python for the:
+1. Data Cleaning
+2. Exploratory Data Analysis (EDA)
+3. Visualization (Matplotlib library)
