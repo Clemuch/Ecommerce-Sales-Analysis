@@ -37,10 +37,20 @@ The e-commerce sales data document consists of 22 attributes, capturing various 
 The dataset is well-suited for analysis on topics such as sales trends, customer behavior, regional performance, and profitability analysis across products and customer segments.
 
 ## Data Source
-The primary dataset used in this analysis is gotten from kaggle. You can also get the dataset direct from kaggle [here](https://www.kaggle.com/datasets/abhishekchauhan001/ecommerce-sales)" or make use of the one uploaded in here.
+The primary dataset used in this analysis is gotten from kaggle. You can also get the dataset direct from kaggle [here](https://www.kaggle.com/datasets/abhishekchauhan001/ecommerce-sales) or make use of the one uploaded in here.
 
 ### Tools 
-Python: Used python for the:
+Python language was used for;
 1. Data Cleaning
 2. Exploratory Data Analysis (EDA)
 3. Visualization (Matplotlib library)
+
+### Data Cleaning/Preparation
+During the data preparation phase, we performed the following task;
+1. Data loading using pandas
+2. Data validation
+   - Handling for missing values
+   - Handling inconsistency in data type
+   - Handling duplicates
+### Exploratory Data Analysis (EDA)
+- 
