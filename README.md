@@ -53,4 +53,21 @@ During the data preparation phase, we performed the following task;
    - Handling inconsistency in data type
    - Handling duplicates
 ### Exploratory Data Analysis (EDA)
-- 
+- How much sales are made by state?
+- How much sales are made by region?
+- What percentage of sales are made in each region?
+- List the top ten product with the highest sales
+- Which product made the highest sales and which month did they made the highest sales?
+- Does discount increase sales? How does discount affect sales? Does a higher discount result in higher sales?
+- Does Sales differs significantly across region?
+- Which category made the highest sales?
+- Does sales varies significantly across category?
+
+### Analysis
+Codes to answer some the EDA
+
+'''python
+
+df = pd.read_csv('Ecommerce Sales Analysis.csv')
+
+'''
