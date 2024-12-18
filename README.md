@@ -3,7 +3,8 @@
 ## Table of Content
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
-
+- [Data Source](#data-source)
+- 
 # Introduction
 
 The CSV file contains data related to e-commerce sales, comprising 9,994 rows and 22 columns. Each row represents an order with details such as:
@@ -66,8 +67,15 @@ During the data preparation phase, we performed the following task;
    - Handling duplicates
 ### Exploratory Data Analysis (EDA)
 1. How much sales are made by city?
+![salesByCity](https://github.com/user-attachments/assets/ffe26e29-8e63-479b-8023-f3485fba29d4)
+There are 528 cities in the dataset. New York City had the highest sales of all the cities in the dataset. It accounted for over 256,000 dollars in sales.
 2. How much sales are made by state?
+![SalesByState](https://github.com/user-attachments/assets/e62c476a-3fca-4e55-a6ea-a6e89d0af27c)
+California made the highest sales among all the states, while North Dakota made the least sales.
 3. How much sales are made by region?
+![SalesByRegion](https://github.com/user-attachments/assets/7991d625-3e9f-4836-a64d-9ee379b85e08)
+
+The West region has the highest sales, followed by the East, Central, and South regions.
 4. What percentage are made by each region?
 5. List the top ten product with the highest sales?
 6. Which product made the highest sales and which month did they made the highest sales?
