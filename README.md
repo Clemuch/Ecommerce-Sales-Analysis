@@ -7,6 +7,7 @@
 - [Tools](#tools)
 - [Frame work](#frame-work)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis(EDA))
 - [Conclusion](#conclusion)
 - [Recommendation](#recommendation)
 - [Reference](#reference)
