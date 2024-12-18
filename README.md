@@ -74,17 +74,37 @@ There are 528 cities in the dataset. New York City had the highest sales of all 
 California made the highest sales among all the states, while North Dakota made the least sales.
 3. How much sales are made by region?
 ![SalesByRegion](https://github.com/user-attachments/assets/7991d625-3e9f-4836-a64d-9ee379b85e08)
-
 The West region has the highest sales, followed by the East, Central, and South regions.
 4. What percentage are made by each region?
+![SalesPercentageByRegion](https://github.com/user-attachments/assets/d18864a9-6ff1-4ebb-8666-261397908559)
+The West region accounts for 31.6% of total sales. The East region is second with 29.5%, followed by the Central region with 21.8%, and the South region with 17.1%.
 5. List the top ten product with the highest sales?
+![TopTenProducts](https://github.com/user-attachments/assets/657d58be-02d6-4079-a026-6fd638d08ead)
+The bar graph indicates that the Canon ImageClass 2200 Advanced Copier has the highest sales of $61599.824
 6. Which product made the highest sales and which month did they made the highest sales?
-7. Does discount increase sales? How does discount affect sales? Does a higher discount result in higher sales?
-8. Does Sales differs significantly across region?
-9. Which category made the highest sales?
-10. Does sales varies significantly across category?
-11. Which Customer Segment drives the highest sales?
-12. Which sub category caused the highest sales?
+   |Product Name|Month Name|Sales|
+   |------------|----------|-----|
+   |Canon imageCLASS 2200 Advanced Copier|October|$28699.918|
+
+8. Does discount increase sales? How does discount affect sales? Does a higher discount result in higher sales?
+
+![CorrDiscount](https://github.com/user-attachments/assets/361590de-76e7-451a-a183-237dc1e3b595)
+
+Let's plot the distribution curve of Yeo-Johnson transformed data  
+![transformedKdePlot](https://github.com/user-attachments/assets/bf4a14ec-f8c9-4078-b8b3-687e543d958b)
+
+Let's see the scatter plot for the transformed discount sales
+![discountSalesYeoJohnson](https://github.com/user-attachments/assets/e7ef769f-1e3f-404f-8569-1fafce598eda)
+
+- After transforming the data, we can see that there is no relationship between sales and discount.
+- Discount does not cause increase in sales.
+- Higher discount does not result in higher sales.
+
+9. Does Sales differs significantly across region?
+10. Which category made the highest sales?
+11. Does sales varies significantly across category?
+12. Which Customer Segment drives the highest sales?
+13. Which sub category caused the highest sales?
 ### Results/Findings
 The analysis result are summarized as follows:
 1. There are 528 cities in the dataset. New York City had the highest sales of all the cities in the dataset. It accounted for over 256,000 dollars in sales.
