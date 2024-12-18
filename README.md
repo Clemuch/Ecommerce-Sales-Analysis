@@ -154,5 +154,14 @@ Consumer drives the highest sales for the company.
 
 Phones had the highest sales among the technology products. Phones also had the highest sales among the subcategories.
 
+## Conclusion
+
+After the dataset was validated for missing values, duplicates, and data types, the sales column was the main focus. EDA was performed to gain insight on the E-commerce dataset. This notebook shows how much sales were made by city, state, and region. Graphs were used to help visualize the results.
+
+## Recommendation
+
+- The company should look out for new technology products, as technology product drives the highest sales accross all region.
+- The company should also reduce discount as it does not drive much sales. Other factors than discounts drive purchasing behavior (e.g., product quality, demand, or brand loyalty).
+
 
 
