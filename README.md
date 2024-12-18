@@ -7,6 +7,10 @@
 - [Tools](#tools)
 - [Frame work](#frame-work)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Conclusion](#conclusion)
+- [Recommendation](#recommendation)
+- [Reference](#reference)
+  
 # Introduction
 
 The CSV file contains data related to e-commerce sales, comprising 9,994 rows and 22 columns. Each row represents an order with details such as:
@@ -163,5 +167,7 @@ After the dataset was validated for missing values, duplicates, and data types, 
 - The company should look out for new technology products, as technology product drives the highest sales accross all region.
 - The company should also reduce discount as it does not drive much sales. Other factors than discounts drive purchasing behavior (e.g., product quality, demand, or brand loyalty).
 
+## Reference
+[Dataset from kaggle](https://www.kaggle.com/datasets/abhishekchauhan001/ecommerce-sales)
 
 
